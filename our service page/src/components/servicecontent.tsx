@@ -44,9 +44,9 @@ const Servicecontent: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-4 ml-32  lg:flex flex-col lg:pt-40 gap-10 lg:ml-0 ">
-          <div className="lg:flex gap-4 ">
-            <div className="card mb-5">
+        <div className="mt-4 ml-32  lg:flex flex-col justify-center items-center lg:pt-40 gap-10 lg:ml-0  ">
+          <div className="lg:flex gap-4  ">
+            <div className="card mb-5 ">
               <img
                 src={IMG24}
                 alt="web dev"
@@ -74,7 +74,7 @@ const Servicecontent: React.FC = () => {
             </div>
           </div>
           <div className="  lg:flex gap-4 lg:-ml-60 ">
-            <div className="card mb-5">
+            <div className="card mb-5  ">
               <img
                 src={IMG129}
                 alt="web dev"
@@ -118,7 +118,7 @@ const Servicecontent: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center m-5">
-        <button className="bg-yellow-400 p-3 rounded-full mb-5 font-bold text-white ">
+        <button className="bg-gradient-to-r from-orange-500 to-yellow-400 p-3 rounded-full mb-5 font-bold text-white ">
           ALL SERVICES
         </button>
       </div>
